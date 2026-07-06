@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instance
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Proxied via Vite config to http://localhost:5000/api
+  baseURL: "https://smart-placement-coach.onrender.com/api", // Proxied via Vite config to http://localhost:10000/api
   headers: {
     'Content-Type': 'application/json',
   },
